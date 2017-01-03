@@ -9,7 +9,6 @@ published: true
 #title: hanjubae
 ---
 
-<!doctyp html>
 <html lang="ko-KR">
 <head>
 <title>깃헙페이지스</title>
