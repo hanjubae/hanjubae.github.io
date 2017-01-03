@@ -1,1 +1,16 @@
-theme: jekyll-theme-cayman
+title: 
+# email: hanjubae@users.noreply.github.com
+description: >
+  hanjubae's jekyll site
+baseurl: ""
+url: "http://hanjubae.org"
+github_username: hanjubae
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
