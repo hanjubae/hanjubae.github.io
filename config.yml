@@ -1,0 +1,16 @@
+title: 
+# email: faithbae41@gmail.com
+description: >
+  hanju's jekyll site
+baseurl: ""
+url: "http://hanjubae.github.io"
+github_username: hanjubae
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
