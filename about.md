@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # h1 tag
 ## h2
 ### h3
