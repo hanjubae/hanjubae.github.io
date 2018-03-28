@@ -1,7 +1,7 @@
 title: hanju's DevRoom
 email: hanjubae@users.noreply.github.com
 description: >
-  hanjubae's jekyll site
+  
 baseurl: ""
 url: "http://hanjubae.github.io"
 github_username: hanjubae
@@ -19,7 +19,7 @@ collections:
     output: true
     permalink: /tags/:path/
 
-default:
+defaults:
   - scope:
       path: ''
       type: tags
@@ -34,7 +34,7 @@ kramdown:
   highlighter: rouge
 
 theme: minima
-gems:
+plugins:
   - jekyll-paginate # 페이지 네이션 설정
 
 paginate: 5 # 몇 개의 포스트를 1개 페이지에 표시할 것인지
