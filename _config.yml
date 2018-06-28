@@ -1,0 +1,63 @@
+title: hanju's DevRoom
+email: hanjubae@users.noreply.github.com
+description: >
+  
+baseurl: ""
+url: "https://hanjubae.github.io"
+github_username: hanjubae
+timezone: Asia/Seoul
+
+repository: hanjubae/hanjubae.github.io
+
+permalink: /:categories/:title/ # url을 어떻게 구성할 건지 묻는 것
+
+excerpt_separator: <!--more--> # post에서 추출할 때 무엇을 기준으로 추출할 것인지 주로 미리보기에 사용된다.
+
+#collections
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
+
+defaults:
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  highlighter: rouge
+
+theme: minima
+plugins:
+  - jekyll-paginate # 페이지 네이션 설정
+
+paginate: 5 # 몇 개의 포스트를 1개 페이지에 표시할 것인지
+paginate_path: '/page/:num/' # 페이지네이션 경로
+
+exclude: [README.md, Gemfile, Gemfile.lock] # Jekll이 무시할 파일들
+
+keep_files: [assets, files] # 유지할 파일들 
+github: [metadata]
+
+author: hanjubae
+asset_url: /assets # assets의 경로
+image: '/assets/images/default_blog_cover.png'#블로그 기본 이미지
+
+google_analytics:
+  ua : UA-116127431-1
+
+facebook:
+  app_id: '100002339583508'
+  username: profile.php?id=100002339583508
+twitter:
+  username: hanjubae
+google_plus:
+  username: hanjubae
+github_url:
+  username: hanjubae
